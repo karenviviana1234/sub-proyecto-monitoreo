@@ -24,7 +24,7 @@ function almacenarData(){
     localStorage.setItem("Hadware", hadwa);
     localStorage.setItem("Software", softwa);
     localStorage.setItem("Otro", oteo);
-    localStorage.setItem("funcional", funci);
+    localStorage.setItem("Funcional", funci);
     localStorage.setItem("Adicional", adic);
     localStorage.setItem("Cliente", clien);
 
