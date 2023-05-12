@@ -89,3 +89,9 @@ function getData(){
     l.innerHTML = adici;
     m.innerHTML = clien;
 }
+
+
+
+document.getElementById('limpiar').addEventListener('click', function() {
+  localStorage.clear();
+});
