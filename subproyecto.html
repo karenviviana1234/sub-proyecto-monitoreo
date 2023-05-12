@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subproyecto</title>
+    <link rel="stylesheet" href="./css/subproyecto.css">
+    <script src="./js/subproyecto.js"></script>
+</head>
+<body>
+    <h1>NOMBRE SUBPROYECTO:</h1>
+    <br>
+    <span>Producto 1</span>
+    <input type="text" id="producto1" placeholder="Nombre del producto">
+    <input type="number" id="cantidad1" placeholder="Cantidad">
+    <input type="number" id="valor1" placeholder="Valor">
+    <p id="resp1"></p>
+    <hr>
+    <span>Producto 2</span>
+    <input type="text" id="producto2" placeholder="Nombre del producto">
+    <input type="number" id="cantidad2" placeholder="Cantidad">
+    <input type="number" id="valor2" placeholder="Valor">
+    <p id="resp2"></p> <!--total-->
+<div class="one-box">
+    <button onclick="valortotal()">Total</button> 
+</div>
+    <button onclick="factura()">Factura</button>
+
+    <hr>
+    <span>Total</span>
+    <p id="respuesta"></p>
+    <hr>
+    <span>Factura</span>
+
+          <table class="table-box">
+         <title>Factura</title>
+         <thead>
+            <tr>
+                <th>Nombre producto</th>
+                <th>Cantidad</th>
+                <th>Valor unitario</th>
+                <th>Total</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!--producto1-->
+           <tr>
+            <td>
+                <p id="respuesta-producto-1"></p>
+            </td>
+            <td>
+                <p id="respuesta-cantidad-1"></p>
+            </td>
+            <td>
+                <p id="respuesta-valor-1"></p>
+            </td>
+            <td>
+                <p id="valor-total1"></p>
+
+            </td>
+        <!--producto2-->
+        <tr>
+            <td>
+                <p id="respuesta-producto-2"></p>
+            </td>
+            <td>
+                <p id="respuesta-cantidad-2"></p>
+            </td>
+            <td>
+                <p id="respuesta-valor-2"></p>
+            </td>
+            <td>
+                <p id="valor-total2"></p>
+            </td>
+          </tr>
+           <tr>
+            <th colspan="3">Total</th>
+            <td>
+                <p id="sumaTotal"></p>
+            </td>
+           </tr>
+          </tr> 
+         </tbody>
+   </table>
+</body>
+</html>

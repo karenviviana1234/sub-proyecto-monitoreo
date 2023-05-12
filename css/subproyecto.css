@@ -1,0 +1,43 @@
+*{
+    background-color: plum;
+}
+button{
+    background-color: black;/*color */
+    border: none;
+    padding: 7px; 
+    color: #ffffff; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    display: block;
+
+ }
+ input{
+     text-align: center;
+     font-family: 'Helvetica', sans-serif;
+ }
+ body{
+    text-align: center;
+}
+button{
+    display: inline;
+}
+.one-box{
+    display: inline; 
+}
+#name{
+    margin: 10px;
+}
+.cant{
+    padding: 5px 15px;
+}
+.izq{
+    text-align: left;
+}
+.der{
+    text-align: right;
+}
+.valorunitario{
+    text-align: center;
+}
+
+

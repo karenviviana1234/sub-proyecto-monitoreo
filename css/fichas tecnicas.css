@@ -1,0 +1,44 @@
+body{
+    background-color: #D2B4DE;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: #af7bc4;
+    color: azure;
+    border: none;
+    cursor: pointer; 
+    padding: 12px 23px;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}
+h4{
+    display: inline-block;                                  
+}
+.style{
+    font-family: 'Amatic SC';
+    border: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center;
+}
+.style{
+ background-color: #BB8FCE;
+}
+.style:hover{ 
+    background-color: #ae72c8;
+    }
+   text-align: center;

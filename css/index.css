@@ -1,0 +1,47 @@
+body{
+    background-image: url(../img/d64948463ed288a6105c49177316ef1e.jpg);
+    background-repeat: no-repeat;
+    font-family:  'Playfair Display';       
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    border: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.box-style{
+    font-family: 'Amatic SC';
+    border: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.box{
+ background-color: #BB8FCE;
+}
+.box:hover{
+    background-color: #ae72c8;
+}
+/* playfair-display-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v30-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/playfair-display-v30-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/playfair-display-v30-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/playfair-display-v30-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/playfair-display-v30-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/playfair-display-v30-latin-700.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+  }
