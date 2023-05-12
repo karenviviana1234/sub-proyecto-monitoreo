@@ -5,10 +5,12 @@ input{
     border-bottom: 1px transparent;
     cursor: pointer;
     margin-left: 515px;
+    
 }
 body{
     background-color: whitesmoke;
     text-align: center;
+    margin: 0;
 }
 button{
     background-color: black;
